@@ -6,4 +6,5 @@ const serve = require('koa-static');
 const main = serve(path.join(__dirname));
 
 app.use(main);
-app.listen(80,'127.0.0.1');
+app.listen(80);
+console.log('isLoading')
